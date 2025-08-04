@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.myface {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 50%;
+                display: block;
+                margin: auto;
+            }
+    
+.myname {
+    font-family: 'Crimson text', serif;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    padding-left: 16px;
+    font-size: 20px;
+    padding-bottom: 32px;
+}
+
+.sidebar {
+    box-sizing: border-box;
+    padding: 30px;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 320px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(73, 73, 216); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.main {
+  margin-left: 320px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.index {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 16px;
+    padding-bottom: 24px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  display: block;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.index:hover {
+    opacity: 0.6;
+}
+
+.header {
+    padding-top: 40px;
+    padding-left: 16px;
+    font-size: 24px;
+    opacity: 0.8;
+    font-weight: normal;
+}
+.second_header {
+    opacity: 0.8;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.paragraph {
+    opacity: 0.8;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+}
+
+.linklink {
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.linklink:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    padding-left: 16px;
+    width: 40px;
+    padding-bottom: 40px;
+    transition: opacity 0.2s;
+}
+.contact:hover {
+    opacity: 0.6;
+}
+.contact:active {
+    transform: scale(0.98)
+}
